@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  <!--AQUI ESTA LA PARTE DEL ENCABEZADO DE LA PAGINA: CAMBIO DE TEMA Y COLORES-->
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <!--TEMA DE LA PAGINA-->
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" 
+          src="assets/icons/moon.svg" 
+          alt="icon theme" 
+          class="toggle-theme_icon">
+          <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        </div>
+      </div>
+      <!--IDIOMA DE LA PAGINA-->
+      <div id="flags" class="flags">
+        <div class="flags_item" data-language="es" >
+          <img src="assets/icons/ec.svg" alt="">
+        </div>
+        <div class="flags_item" data-language="en" >
+          <img src="assets/icons/us.svg" alt="">
+        </div>
+      </div>
+      <!--COLORES DE LA PAGINA-->
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item
+          colors_item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors_item
+        colors_item--green"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors_item
+        colors_item--purple"></div>
+
+        <div data-color="hsl(46, 84%, 56%)" class="colors_item
+        colors_item--orange"></div>
+      </div>
+    </header>
+
+    <!--AQUI EMPIEZA EL CUERPO DE LA PAGINA-->
+    <main class="main">
+      <section class="colum colum--left">
+        <!--AQUI EMPIEZA LA TARJE DE PERFIL-->
+        <article class="card card-profile">
+          <div class="card_image-container">
+            <img src="assets/images/profile.jpg" alt="" >
+          </div>
+          <div class="car_header">
+            <h2 class="card_title">Bryan Llulluna</h2>
+            <p class="card_subtitle" data-section="profile" data-value="rol">Developer</p>
+          </div>
+          <div class="card_body">
+            <img src="assets/icons/escritura.png" alt="" height="18px" width="18px">
+            <div class="card_link">
+              <a href="llullunab@gmail.com">llullunab@gmail.com</a>
+            </div>
+            <img src="assets/icons/llamada-telefonica.png" alt=""height="18px" width="18px">
+            <div class="card_link">
+              <a href="tel:0979633621">
+                +593-979-633-621
+              </a>
+            </div>
+            <p class="card_text" data-section="profile" data-value="description">
+              Hola mi nombre es Bryan Llulluna, un día conoci la programación y la ame.
+              Llevo muchos años dentro del mundo de la programación conociendo diferentes lenguajes y aprendiendo
+              de nuevas tecnologias día a día, con experiencia en C++, C#, HTML, CSS Y MY SQL.
+              Mi metas es tranladar mi pasión por el desarrollo a un estilo de vida y seguir aprendiendo.
+            </p>
+          </div>
+        </article>
+        <!--AQUI VA LAS TARJETAS DE EXPERIENCIA EN DESARROLLO-->
+        <article class="card card--experience">
+          <h2 class="card_title">Experiencias</h2>
+          <div class="experience">
+            <img src="assets/images/logo1.jpg" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experince_time" data-section="experience" data-value="first-job-date">
+                Junio 2021 - Agosto 2021
+              </p>
+              <h3 class="experience_job" data-section="experience" data-value="first-job-title">Diseñador y Desarrollador</h3>
+              <p class="experience_description" data-section="experience" data-value="first-job-description">
+                Fui el principal diseñador  del mapa del juego, creando los diversos lugares de recorrido, al igual
+                que las diferentes edificaciones y en la parte de desarrollo el creador de las diferentes monedas y el horno con el cual 
+                el personaje interactuaba. 
+              </p>
+              <a href="https://virtualtour3despoch.blogspot.com/">MI ESPOCH EN 3D</a>
+            </div>
+          </div>
+        </article>
+        <!--AQUI VA LAS TARJETAS DE EXPERIENCIA EN DESARROLLO 2-->
+        <article class="card card--experience">
+          <h2 class="card_title">Experiencias</h2>
+          <div class="experience">
+            <img src="assets/images/logo.gif" alt="logo" class="experience_image">
+            <div class="experience_info">
+              <p class="experince_time" data-section="experience" data-value="second-job-date">
+                Marzo 2021 - Abril 2021
+              </p>
+              <h3 class="experience_job" data-section="experience" data-value="second-job-title">Desarrollador</h3>
+              <p class="experience_description" data-section="experience" data-value="second-job-description">
+                Desarrollador de una página, que su funcionalidad era la resolución de diferentes ejercicios,
+                automatizando para que solo pida datos y los resuelva dando las respuestas al usuario. 
+              </p>
+              <img src="assets/images/Experiencia.png" alt="">
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card_title">Hobbies</h2>
+          <div class="card_image-container">
+            <img src="assets/images/hobbie.jpg" alt="cancha de basuqte">
+          </div>
+          <h3 class="hobbie_tittle">Basquetball</h3>
+          <p class="card_text">Al igual que la programación cuando conoci este deporte lo hice un habito,
+            desde el colegio lo e prácticado y gracias a el conoci grandes personas, amigos que hasta ahora
+            son parte de mi vida.
+          </p>
+        </article>
+      </section>
+      <!--AQUI VA A EMPEZAR LAS TARJETAS DE EXPERIENCIA 1-->
+      <sectio class="colum colum--right">
+        <article class="card">
+          <h2 class="card_title">Front End</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_star-level">0</span>
+              <span class="skills_star-level">4</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">HTML</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">CSS</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">JavaScript</p>
+              <div class="skills_bar skills_bar--10"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">PHP</p>
+              <div class="skills_bar skills_bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <!--AQUI VA A EMPEZAR LAS TARJETAS DE EXPERIENCIA 2-->
+        <article class="card">
+          <h2 class="card_title">Diseño</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_star-level">0</span>
+              <span class="skills_star-level">4</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">Ilustrador</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">Canva</p>
+              <div class="skills_bar skills_bar--50"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">SketchUp</p>
+              <div class="skills_bar skills_bar--10"></div>
+            </div>
+          </div>
+        </article>  
+        <!--AQUI VA A EMPEZAR LAS TARJETAS DE EXPERIENCIA 3-->
+        <article class="card">
+          <h2 class="card_title">Multimedia</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills_header">
+              <span class="skills_star-level">0</span>
+              <span class="skills_star-level">5</span>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">Filmora</p>
+              <div class="skills_bar skills_bar--70"></div>
+            </div>
+            <div class="skills_item">
+              <p class="skills_tech">Unity</p>
+              <div class="skills_bar skills_bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card_image-container">
+            <img src="assets/images/Project1.png" alt="">
+            <img src="assets/images/Project2.png" alt="">
+          </div>
+          <!--AQUI ES LA SECCION DONDE SE MOSTRARAN TODOS LOS PROJECTOS EN LOS CUALES TRABAJE-->
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#SketchUp</span>
+              <span class="project_tag">#Unity</span>
+              <span class="project_tag">#C#</span>
+              <span class="project_tag">#RealidadVirtual</span>
+            </div>
+            <h2 class="card_title"data-section="projects" data-value="first-projects-title">Recorrido Virtual</h2>
+            <p class="card_text">Se realizo un paseo virtual en modo juego donde se creo el mapa el sector del sector de la entrada 
+              de la Escuela Superior Politecnica de Chimborazo con el sofware SketchUp y porterior a eso con la técnologia de Unity
+              se diseño el juego con un personaje el cual realiaba un recorrido, donde podia interactuar con un horno y también podía ir recogiendo
+              monedas por todo el mapa.
+            </p>
+            
+            <div class="buttons">
+              <a href="https://drive.google.com/drive/folders/1K8uK4EfVzm4qyspVrrLVaHjxYFqxeDVz?usp=sharing" class="button button--primary">Demo</a>
+              <a href="https://drive.google.com/drive/folders/1hSl9Cd55WjskoN3KcNjPN4M4JJLrEFTa?usp=sharing" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+      </sectio>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

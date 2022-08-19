@@ -1,0 +1,20 @@
+{
+    "profile":{
+        "rol": "Developer",
+        "description": "Hello my name is Bryan Llulluna, one day I met programming and I loved it. I have been in the world of programming for many years knowing different languages ​​and learning new technologies day by day, with experience in C++, C#, HTML, CSS AND MY SQL . My goals is to transfer my passion for development to a lifestyle and continue learning."
+        },
+    "experience":{
+        "first-job-title": "Designer and Developer",
+        "first-job-date": "June 2021 - August 2021",
+        "first-job-description": "I was the main designer of the game's map, creating the various places to travel, as well as the different buildings and in the development part the creator of the different currencies and the oven with which the character interacted.",
+        "second-job-title":"Developer",
+        "second-job-date":"March 2021 - April 2021",
+        "second-job-description":"Developer of a page, whose functionality was the resolution of different exercises, automating so that it only asks for data and solves them giving the answers to the user."
+    
+    },
+    "projects":{
+        "fist-projects-title":"Virtual tour",
+        "first-projects-description":""
+    }
+    }
+    
